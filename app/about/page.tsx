@@ -12,10 +12,10 @@ export default function About() {
       <AnimatedSection delay={0.1}>
         <section className="mb-12">
           <p className="text-lg leading-relaxed">
-            {"我是一个喜欢在不同域之间穿梭的创造者。从前端开发到交互设计，从音乐创作到算法实验——我总是被“边界”吸引。"}
+            {"喜欢打游戏的码农，喜欢看电影的程序员。"}
           </p>
           <p className="text-lg leading-relaxed mt-4">
-            {"这个网站是我的工作室，也是我的展示档。这里有我做过的项目、写过的文章，还有一些尝试性的小玩意儿。"}
+            {"这个网站是我的个人空间，用于记录我的作品、想法和一些有趣的小垃圾。"}
           </p>
         </section>
       </AnimatedSection>
@@ -29,8 +29,8 @@ export default function About() {
               <p className="text-sm text-[var(--muted)]">React, Next.js, Tailwind CSS, building things for the web.</p>
             </div>
             <div className="p-5 rounded-xl border border-[var(--border)]">
-              <h3 className="font-bold mb-2">Music</h3>
-              <p className="text-sm text-[var(--muted)]">Piano improvisation, generative music, sound experiments.</p>
+              <h3 className="font-bold mb-2">Game</h3>
+              <p className="text-sm text-[var(--muted)]">STG,4X,online TCG,SLG,AVG/VN</p>
             </div>
             <div className="p-5 rounded-xl border border-[var(--border)]">
               <h3 className="font-bold mb-2">Design</h3>
@@ -38,7 +38,7 @@ export default function About() {
             </div>
             <div className="p-5 rounded-xl border border-[var(--border)]">
               <h3 className="font-bold mb-2">Research</h3>
-              <p className="text-sm text-[var(--muted)]">Exploring the intersection of AI, creativity, and tools.</p>
+              <p className="text-sm text-[var(--muted)]">Computer Vision, exploring the intersection of AI, creativity, and tools.</p>
             </div>
           </div>
         </section>
@@ -48,9 +48,9 @@ export default function About() {
         <section>
           <h2 className="text-2xl font-bold tracking-tight mb-4">{"联系我"}</h2>
           <div className="flex gap-6">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--muted)] hover:text-[var(--accent)] transition-colors">GitHub</a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--muted)] hover:text-[var(--accent)] transition-colors">Twitter</a>
-            <a href="mailto:hello@example.com" className="text-sm text-[var(--muted)] hover:text-[var(--accent)] transition-colors">Email</a>
+            <a href="https://space.bilibili.com/2040180" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--muted)] hover:text-[var(--accent)] transition-colors">bilibili</a>
+            <a href="mailto:yujiany6@gmail.com" className="text-sm text-[var(--muted)] hover:text-[var(--accent)] transition-colors">Email</a>
+            <a href="https://linux.do/u/xanazephyr/summary" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--muted)] hover:text-[var(--accent)] transition-colors">linux.do</a>
           </div>
         </section>
       </AnimatedSection>

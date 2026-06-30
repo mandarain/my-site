@@ -31,7 +31,7 @@ export default function HomeClient({ works, posts }: { works: any[]; posts: any[
           transition={{ duration: 0.6, delay: 0.1, ease: [0.25, 0.1, 0.25, 1] }}
           className="text-5xl sm:text-7xl font-bold tracking-tight leading-[1.05]"
         >
-          {"盛德美"}
+          {"XanaZephYr"}
           <br />
           <span className="text-[var(--muted)]">{"create & code"}</span>
         </motion.h1>
@@ -41,7 +41,7 @@ export default function HomeClient({ works, posts }: { works: any[]; posts: any[
           transition={{ duration: 0.5, delay: 0.3 }}
           className="mt-6 max-w-lg text-[var(--muted)] text-lg leading-relaxed"
         >
-          {"一个喜欢在不同域之间穿梭的创造者。写代码、弹钢琴、搞实验。这里是我的工作室。"}
+          {"个人的备忘录和作品集网站，记录一些有趣的想法和项目。"}
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 10 }}

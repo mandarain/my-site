@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "盛德美 | Codex",
+  title: "XanaZephYr",
   description: "个人网站 — 作品集 · 博客 · 关于我",
 };
 
