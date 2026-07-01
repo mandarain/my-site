@@ -32,8 +32,6 @@ export default function HomeClient({ works, posts }: { works: any[]; posts: any[
           className="text-5xl sm:text-7xl font-bold tracking-tight leading-[1.05]"
         >
           {"XanaZephYr"}
-          <br />
-          <span className="text-[var(--muted)]">{"create & code"}</span>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}
@@ -41,7 +39,7 @@ export default function HomeClient({ works, posts }: { works: any[]; posts: any[
           transition={{ duration: 0.5, delay: 0.3 }}
           className="mt-6 max-w-lg text-[var(--muted)] text-lg leading-relaxed"
         >
-          {"个人的备忘录和作品集网站，记录一些有趣的想法和项目。"}
+          {"mind over matter, code over chaos."}
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 10 }}
