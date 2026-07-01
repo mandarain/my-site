@@ -9,6 +9,7 @@
   --muted: #8E8E9A;
   --card: #EEE9E0;
   --border: #DDD8CF;
+  --bg-image: url("/images/Hermes.webp");
 }
 
 .dark {
@@ -18,10 +19,15 @@
   --muted: #6E6E7E;
   --card: #1A1A2E;
   --border: #2A2A3E;
+  --bg-image: url("/images/Hermes.webp");
 }
 
 body {
   background-color: var(--bg);
+  background-image: linear-gradient(color-mix(in srgb, var(--bg) 80%, transparent), color-mix(in srgb, var(--bg) 90%, transparent)),var(--bg-image);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
   color: var(--text);
   font-family: "Inter", system-ui, -apple-system, sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
